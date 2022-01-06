@@ -1,0 +1,14 @@
+{
+  "name": "gokart",
+  "version": "1.0.0",
+  "description": "MERN shopping cart app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server"
+  },
+  "author": "Sartaj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

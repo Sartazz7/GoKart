@@ -5,6 +5,7 @@ import './bootstrap.min.css'
 import { Container } from 'react-bootstrap'
 import HomeScreen from './screens/HomeScreen'
 import ProductScreen from './screens/ProductScreen'
+import CartScreen from './screens/CartScreen'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 const App = () => {
@@ -18,6 +19,11 @@ const App = () => {
 						<Route
 							path='/products/:id'
 							element={<ProductScreen />}
+						/>
+						<Route
+							path='/cart/:id/:qty'
+							element={<CartScreen />}
+							exact
 						/>
 					</Routes>
 				</Container>

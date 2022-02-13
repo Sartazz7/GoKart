@@ -1,128 +1,155 @@
-
-<!-- Created a clone of Instagram using MERN stack.
-
-Features:
-
-Uers can update their profile and sort posts based on their followings
-User authetication with enability to reset password via email notification
-Lets users post images with title
-Lets users like & dislike posts
-Lets users comment on others post
-Lets users view other users profile
-Lets user follow & unfollow other users
-Search feature to search people on this webiste
-
-Discover about different people by having a visit at this Instagram-Clone
-https://instaclone2305.herokuapp.com/
-======= -->
 <h1 align="center">GoKart - Online Shopping Website</h1>
-<br>
-
-<h1 align="center">
-🌐 MERN Stack
-</h1>
+<h2 align="center">
+🌐 MERN Stack & Redux
+</h2>
 <p align="center">
 MongoDB, Expressjs, Reactjs, Redux, Nodejs
 </p>
 
-> MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
-
-MERN stack is the idea of using Javascript/Node for fullstack web development.
+> This project is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
 
 <!-- Discover about different people by having a visit at this Instagram-Clone : 
 https://instaclone2305.herokuapp.com/ -->
 
 
-# About
-I started developing a social media app in my spare time for about 2 months or so and ended up with this cool Instagram-Clone!
-Basically it allows you to login and upload posts (with images & coordinates), search posts (by names), like and comment on posts.
+# Problem Statement
 
-I learnt a lot about react & backend stuff while doing this including:
-- best ways to upgrade a projects packages (which proves to be hard some times)
-- write clean client-side & server-side modules
-- changing the boilerplate
-- optimize bits of code
-- much more...
+Dukaan Tech Track, where you can solve ANY problem of Indian Dukaandar using yourknowledge of ML, AI or any other technology and come up with an exciting solution that maysignificantly impact their lives. Don't miss out this amazing opportunity to solve real problems.
+<br>
 
-# What I learnt about react
-- It's really easy to prototype web-apps quickly, but when it comes to refining them and adding smaller details, the development time starts to slow down. 
-- The styling is quite hard, at first, to get right.
-- It's got an amazing community that spends a lot of time improving the codebase everyday!
-- Changing react versions can prove to be a hard task. Build error, npm package dependcies, and more...
+# Problems faced by Indian Dukaandars and their solutions
+
+## PROBLEMS -
+
+- Low-to-no income during lockdowns
+- Unavailability of 24x7 services for the customers
+- Mis-management during festive seasons due to large crowds
+- Incapability of displaying all their products due to limited space
+- Increased manforce to handle customers
+- Limited reach of customers
+
+## SOLUTIONS -
+
+- During lockdown, people were obligated to stay indoors. This website can help consumers get the essential supplies at their doorsteps.
+- 24x7 opportunity to shop online that saves time and effort
+- No crowd gatherings and unusual battles for parking
+- Multiple options and brands to display at a single place with a large volume of stock available online
+- Reduces the need of large manforce
+- Increases the reach of customers world-wide
+
+Created an online shopping portal for Indian Dukandaars using MERN stack & Redux.
+
+### Features:
+
+- JWT user authetication
+- Top products carousel
+- Update user profile (username, email, password)
+- Full featured shopping cart
+- User profile with order details (product description, price, availability status)
+- Checkout process (shipping, payment method, etc)
+- Track placed order
+- PayPal / credit card integration
+- Mark orders as delivered option
+- Database seeder (products & users)
+
+One-stop solution for all your shopping problems amidst the pandemic, GoKart
+<!-- https://instaclone2305.herokuapp.com/ -->
 
 
+# About this project
 
-## clone or download
-```terminal
-$ git clone https://github.com/riyajha2305/Instagram-Clone.git
-$ npm i
-```
+### Frontend
 
-## folder structure
-```terminal
-client/
-  public
-  src
-config
-middleware
-models
-routes
-   app.js
-   package-lock.json
-   package.json
-...
-```
+In the frontend side, we have used React as the frontend library. We have used Redux for state management. We have also used React Bootstrap library for basic designing of the interface.
+
+### Backend
+
+For the backend side, we have used the Express library on top of Nodejs.  MongoDB is used as the NoSQL database to store our data as documents in JSON format. and mongoose to connect to our MongoDB database.
+
+We have created REST APIs with Express and used these endpoints in the React frontend to interact with our backend part.
+
 
 # Usage (run fullstack app on your machine)
 
 ## Prerequisites
-- [MongoDB](https://gist.github.com/nrollr/9f523ae17ecdbb50311980503409aeb3)
-- [Node](https://nodejs.org/en/download/) ^10.0.0
-- [npm](https://nodejs.org/en/download/package-manager/)
 
-notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
+### ES Modules in Node
 
-## Client-side usage(PORT: 3000)
-```terminal
-$ cd client    // go to client folder
-$ npm i       // npm install packages
-$ npm start  // run the client side app
+-We have used ECMAScript Modules in the backend in this project. Be sure to have at least Node v14.6+ or you will need to add the "--experimental-modules" flag.
+-Also, when importing a file (not a package), be sure to add .js at the end or you will get a "module not found" error
+-You can also install and setup Babel if you would like
+
+### Env Variables
+
+Create a .env file in then root and add the following
 
 ```
-
-## Server-side usage(PORT: 5000)
-
-### Prepare your secret
-
-run the script at the first level:
-
-### Start
-
-```terminal
-$ npm i       // npm install packages
-$ nodemon app // this will run the server side app
+NODE_ENV = development
+PORT = 5000
+MONGO_URI = your mongodb uri
+JWT_SECRET = 'abc123'
+PAYPAL_CLIENT_ID = your paypal client id
 ```
 
-## Deploy Server to [Heroku](https://dashboard.heroku.com/)
-```terminal
-$ npm i -g heroku
-$ heroku login
-...
-$ heroku create
-$ npm run heroku:add <your-super-app>
-// remember to run this command in the root level, not the server level, so if you follow the documentation along, you may need to do `cd ..`
-$ pwd
-/Users/<your-name>/mern
-$ npm run deploy:heroku
+### Install Dependencies (frontend & backend)
+
+```
+npm install
+cd frontend
+npm install
 ```
 
+### Run
+
+```
+# Run frontend (:3000) & backend (:5000)
+npm run dev
+
+# Run backend only
+npm run server
+```
+
+## Build & Deploy
+
+```
+# Create frontend prod build
+cd frontend
+npm run build
+```
+
+There is a Heroku postbuild script, so if you push to Heroku, no need to build manually for deployment to Heroku
+
+### Seed Database
+
+You can use the following commands to seed the database with some sample users and products as well as destroy all data
+
+```
+# Import data
+npm run data:import
+
+# Destroy data
+npm run data:destroy
+```
+
+```
+Sample User Logins
+
+admin@example.com (Admin)
+123456
+
+john@example.com (Customer)
+123456
+
+jane@example.com (Customer)
+123456
+```
 
 # Screenshots of this project
 
-User can sign in or sign up
+<!-- User can sign in or sign up -->
 <!-- ![User can sign in or sign up](https://github.com/riyajha2305/Instagram-Clone/blob/master/screenshots/1.png) -->
 
-User visit Feed page
+<!-- User visit Feed page -->
 <!-- ![User visit Feed page](https://github.com/riyajha2305/Instagram-Clone/blob/master/screenshots/2.png) -->
 
 <!-- User can go to his/her profile page

@@ -1,7 +1,4 @@
 
-# GoKart
-Online Dukandaar | MERN Stack
-
 <!-- Created a clone of Instagram using MERN stack.
 
 Features:

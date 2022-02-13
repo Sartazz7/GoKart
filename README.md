@@ -29,8 +29,8 @@ MongoDB, Expressjs, Reactjs, Nodejs
 
 MERN stack is the idea of using Javascript/Node for fullstack web development.
 
-Discover about different people by having a visit at this Instagram-Clone : 
-https://instaclone2305.herokuapp.com/
+<!-- Discover about different people by having a visit at this Instagram-Clone : 
+https://instaclone2305.herokuapp.com/ -->
 
 
 # About
@@ -120,13 +120,13 @@ $ npm run deploy:heroku
 # Screenshots of this project
 
 User can sign in or sign up
-![User can sign in or sign up](https://github.com/riyajha2305/Instagram-Clone/blob/master/screenshots/1.png)
+<!-- ![User can sign in or sign up](https://github.com/riyajha2305/Instagram-Clone/blob/master/screenshots/1.png) -->
 
 User visit Feed page
-![User visit Feed page](https://github.com/riyajha2305/Instagram-Clone/blob/master/screenshots/2.png)
+<!-- ![User visit Feed page](https://github.com/riyajha2305/Instagram-Clone/blob/master/screenshots/2.png) -->
 
-User can go to his/her profile page
-![User can go to his/her profile page](https://github.com/riyajha2305/Instagram-Clone/blob/master/screenshots/3.png)
+<!-- User can go to his/her profile page
+![User can go to his/her profile page](https://github.com/riyajha2305/Instagram-Clone/blob/master/screenshots/3.png) -->
 
-User can visit other users profile and follow/unfollow
-![User can visit other users profile and follow/unfollow](https://github.com/riyajha2305/Instagram-Clone/blob/master/screenshots/4.png)
+<!-- User can visit other users profile and follow/unfollow
+![User can visit other users profile and follow/unfollow](https://github.com/riyajha2305/Instagram-Clone/blob/master/screenshots/4.png) -->

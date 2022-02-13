@@ -1,8 +1,8 @@
 
-# Instagram-Clone
-Instagram Clone | MERN Stack
+# GoKart
+Online Dukandaar | MERN Stack
 
-Created a clone of Instagram using MERN stack.
+<!-- Created a clone of Instagram using MERN stack.
 
 Features:
 
@@ -17,8 +17,8 @@ Search feature to search people on this webiste
 
 Discover about different people by having a visit at this Instagram-Clone
 https://instaclone2305.herokuapp.com/
-=======
-<h1 align="center">Instagram-Clone-Social-Media-App</h1>
+======= -->
+<h1 align="center">GoKart - Online Shopping Website</h1>
 <br>
 
 <h1 align="center">

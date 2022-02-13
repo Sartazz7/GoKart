@@ -22,7 +22,7 @@ https://instaclone2305.herokuapp.com/
 🌐 MERN Stack
 </h1>
 <p align="center">
-MongoDB, Expressjs, Reactjs, Nodejs
+MongoDB, Expressjs, Reactjs, Redux, Nodejs
 </p>
 
 > MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.

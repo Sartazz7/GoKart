@@ -6,19 +6,50 @@
 MongoDB, Expressjs, Reactjs, Redux, Nodejs
 </p>
 
-> This project is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
+<p align="center">
+    <a href="https://github.com/Sartazz7/GoKart/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Sartazz7/GoKart/issues">Request Extension </a>
+  </p>
+<br>
 
-<!-- Discover about different people by having a visit at this Instagram-Clone :
-https://instaclone2305.herokuapp.com/ -->
+<!-- > This project is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
+ -->
+<br>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+> This project is a part of IIT BOMBAY'S E-SUMMIT'22 | I-HACK Hackathon
+<br>
+<a href="https://github.com/Sartazz7/GoKart"><img src="https://www.ecell.in/esummit/ttmm/images/Logo0.png"></a>
+<br><br>
+<div align="center">
+    <a href="https://www.ecell.in/esummit/i-hack/">E-SUMMIT'22 | I-HACK</a>
+
+</div>
+
+<br>
+
+
+<br>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
 
 # Problem Statement
 
-Dukaan Tech Track, where you can solve ANY problem of Indian Dukaandar using yourknowledge of ML, AI or any other technology and come up with an exciting solution that maysignificantly impact their lives. Don't miss out this amazing opportunity to solve real problems.
+Dukaan Tech Track, where you can solve ANY problem of Indian Dukaandar using yourknowledge of ML, AI or any other technology and come up with an exciting solution that maysignificantly impact their lives.
 <br>
 
-# Problems faced by Indian Dukaandars and their solutions
+## Problems faced by Indian Dukaandars and their solutions
 
-## PROBLEMS -
+### Problems
 
 -   Low-to-no income during lockdowns
 -   Unavailability of 24x7 services for the customers
@@ -27,7 +58,7 @@ Dukaan Tech Track, where you can solve ANY problem of Indian Dukaandar using you
 -   Increased manforce to handle customers
 -   Limited reach of customers
 
-## SOLUTIONS -
+### Solutions
 
 -   During lockdown, people were obligated to stay indoors. This website can help consumers get the essential supplies at their doorsteps.
 -   24x7 opportunity to shop online that saves time and effort
@@ -38,7 +69,7 @@ Dukaan Tech Track, where you can solve ANY problem of Indian Dukaandar using you
 
 Created an online shopping portal for Indian Dukandaars using MERN stack & Redux.
 
-### Features:
+### Features
 
 -   JWT user authetication
 -   Top products carousel
@@ -55,7 +86,20 @@ One-stop solution for all your shopping problems amidst the pandemic, GoKart
 
 <!-- https://instaclone2305.herokuapp.com/ -->
 
-# About this project
+## About
+
+
+ ### Tech-Stacks used :
+
+  ![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+  ![Nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+  ![Reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![Mangodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+  ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+  ![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)
+  
 
 ### Frontend
 
@@ -143,3 +187,59 @@ saran@gmail.com (Customer)
 ```
 
 # Screenshots of this project
+
+### User Sign / Signup 
+
+![User Sign / Signup]()
+
+<br>
+
+### 
+
+
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+## Contributors
+<a href="https://github.com/Sartazz7/GoKart"><img src="https://forthebadge.com/images/badges/built-by-developers.svg"  ></a> 
+<a href="https://github.com/Sartazz7/GoKart"><img src="https://forthebadge.com/images/badges/built-with-love.svg"  ></a> 
+<a href="https://github.com/Sartazz7/GoKart"><img src="https://forthebadge.com/images/badges/built-with-swag.svg" ></a>   
+
+<br>
+
+
+![Contributors](https://contributors-img.web.app/image?repo=Sartazz7/GoKart)
+
+
+
+<br>
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+## Feedback
+
+If you have any feedback or suggestions please reach out.  
+* [Contact Us](mailto:sartajislam21@gmail.com)
+  
+Or you can create an  <a href="https://github.com/Sartazz7/GoKart/issues">issue</a> and mention there , which new features can make this Project more good.
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+<br>
+  
+<br>
+
+<div align="center">
+
+### Show some ❤️ by starring this awesome Repository!
+
+</div>

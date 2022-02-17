@@ -6,7 +6,7 @@ import Message from '../components/Message'
 import { addToCart, removeFromCart } from '../actions/cartActions'
 
 const CartScreen = () => {
-	const { id, qty } = useParams()
+	// const { id, qty } = useParams()
 
 	const dispatch = useDispatch()
 	const navigate = useNavigate()
@@ -14,18 +14,26 @@ const CartScreen = () => {
 	const cart = useSelector((state) => state.cart)
 	const { cartItems } = cart
 
-	useEffect(() => {
-		if (id) {
-			dispatch(addToCart(id, qty))
-		}
-	}, [dispatch, id, qty])
+    const userLogin = useSelector((state) => state.userLogin)
+    const {userInfo} = userLogin
+
+	// useEffect(() => {
+	// 	if (id) {
+	// 		dispatch(addToCart(id, qty))
+	// 	}
+	// }, [dispatch, id, qty])
 
 	const removeFromCartHandler = (id) => {
 		dispatch(removeFromCart(id))
 	}
 
 	const checkOutHandler = () => {
-		navigate('/login?redirect=shipping')
+        if(!userInfo){
+            navigate('/login')
+        }
+        else {
+            navigate('/shipping')
+        }
 	}
 
 	return (

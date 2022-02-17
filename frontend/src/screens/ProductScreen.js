@@ -6,6 +6,7 @@ import Rating from '../components/Rating'
 import Loader from '../components/Loader'
 import Message from '../components/Message'
 import { listProductDetails } from '../actions/productActions'
+import { addToCart } from '../actions/cartActions'
 
 const ProductScreen = () => {
 	const [qty, setQty] = useState(1)
@@ -22,7 +23,8 @@ const ProductScreen = () => {
 	}, [dispatch, id])
 
 	const addToCartHandler = () => {
-		navigate(`/cart/${id}/${qty}`)
+		dispatch(addToCart(id, qty))
+		navigate(`/cart`)
 	}
 
 	return (
@@ -110,7 +112,6 @@ const ProductScreen = () => {
 								)}
 								<ListGroup.Item>
 									<Button
-										//href={`/cart/${id}`}
 										onClick={addToCartHandler}
 										className='btn-block'
 										type='button'

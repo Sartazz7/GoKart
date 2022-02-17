@@ -19,7 +19,7 @@ MongoDB, Expressjs, Reactjs, Redux, Nodejs
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-> This project is a part of IIT BOMBAY'S E-SUMMIT'22 | I-HACK Hackathon
+<!-- > This project is a part of IIT BOMBAY'S E-SUMMIT'22 | I-HACK Hackathon
 <br>
 <a href="https://github.com/Sartazz7/GoKart"><img src="https://www.ecell.in/esummit/ttmm/images/Logo0.png"></a>
 <br><br>
@@ -33,7 +33,7 @@ MongoDB, Expressjs, Reactjs, Redux, Nodejs
 
 <br>
 
-
+ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -41,7 +41,7 @@ MongoDB, Expressjs, Reactjs, Redux, Nodejs
 
 
 
-
+<!-- 
 # Problem Statement
 
 Dukaan Tech Track, where you can solve ANY problem of Indian Dukaandar using yourknowledge of ML, AI or any other technology and come up with an exciting solution that maysignificantly impact their lives.
@@ -68,7 +68,7 @@ Dukaan Tech Track, where you can solve ANY problem of Indian Dukaandar using you
 -   Increases the reach of customers world-wide
 
 Created an online shopping portal for Indian Dukandaars using MERN stack & Redux.
-
+ -->
 ### Features
 
 -   JWT user authetication
@@ -201,8 +201,3 @@ Or you can create an  <a href="https://github.com/Sartazz7/GoKart/issues">issue<
   
 <br>
 
-<div align="center">
-
-### Show some ❤️ by starring this awesome Repository!
-
-</div>

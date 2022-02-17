@@ -186,43 +186,6 @@ saran@gmail.com (Customer)
 123456
 ```
 
-# Screenshots of this project
-
-### User Sign / Signup 
-
-![User Sign / Signup]()
-
-<br>
-
-### 
-
-
-
-
-
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-
-## Contributors
-<a href="https://github.com/Sartazz7/GoKart"><img src="https://forthebadge.com/images/badges/built-by-developers.svg"  ></a> 
-<a href="https://github.com/Sartazz7/GoKart"><img src="https://forthebadge.com/images/badges/built-with-love.svg"  ></a> 
-<a href="https://github.com/Sartazz7/GoKart"><img src="https://forthebadge.com/images/badges/built-with-swag.svg" ></a>   
-
-<br>
-
-
-![Contributors](https://contributors-img.web.app/image?repo=Sartazz7/GoKart)
-
-
-
-<br>
-
-
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 
 ## Feedback

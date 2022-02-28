@@ -14,6 +14,11 @@ import PaymentScreen from './screens/PaymentScreen'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import PlaceOrderScreen from './screens/PlaceOrderScreen'
 import OrderScreen from './screens/OrderScreen'
+import UserListScreen from './screens/UserListScreen'
+import ProductListScreen from './screens/ProductListScreen'
+import UserEditScreen from './screens/UserEditScreen'
+import ProductEditScreen from './screens/ProductEditScreen'
+import OrderListScreen from './screens/OrderListScreen'
 
 const App = () => {
 	return (
@@ -58,6 +63,31 @@ const App = () => {
 							element={<ProductScreen />}
 						/>
 						<Route path='/cart' element={<CartScreen />} exact />
+						<Route
+							path='/admin/userlist'
+							element={<UserListScreen />}
+							exact
+						/>
+						<Route
+							path='/admin/productlist'
+							element={<ProductListScreen />}
+							exact
+						/>
+						<Route
+							path='/admin/user/:id/edit'
+							element={<UserEditScreen />}
+							exact
+						/>
+						<Route
+							path='/admin/product/:id/edit'
+							element={<ProductEditScreen />}
+							exact
+						/>
+						<Route
+							path='/admin/orderlist'
+							element={<OrderListScreen />}
+							exact
+						/>
 						<Route path='/' element={<HomeScreen />} exact />
 					</Routes>
 				</Container>

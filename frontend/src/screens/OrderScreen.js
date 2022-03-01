@@ -120,7 +120,7 @@ const OrderScreen = () => {
 									Delivered at {order.deliveredAt}
 								</Message>
 							) : (
-								<Message varinat='danger'>
+								<Message variant='danger'>
 									Not Delivered
 								</Message>
 							)}
@@ -137,7 +137,7 @@ const OrderScreen = () => {
 									Paid at {order.paidAt}
 								</Message>
 							) : (
-								<Message varinat='danger'>Not Paid</Message>
+								<Message variant='danger'>Not Paid</Message>
 							)}
 						</ListGroup.Item>
 

@@ -3,6 +3,7 @@ import express from 'express'
 import dotenv from 'dotenv'
 import connectDB from './config/db.js'
 import colors from 'colors'
+import morgan from 'morgan'
 import { notFound, errorHandler } from './middleware/errorMiddleware.js'
 import productRoutes from './routes/productRoutes.js'
 import userRoutes from './routes/userRoutes.js'
@@ -15,11 +16,11 @@ connectDB()
 
 const app = express()
 
-app.use(express.json())
+if (process.env.NODE_ENV == 'development') {
+	app.use(morgan('dev'))
+}
 
-app.get('/', (req, res) => {
-	res.send('Get request')
-})
+app.use(express.json())
 
 app.use('/api/products', productRoutes)
 app.use('/api/users', userRoutes)
@@ -31,6 +32,19 @@ app.get('/api/config/paypal', (req, res) =>
 )
 
 const __dirname = path.resolve()
+
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static(path.join(__dirname, '/frontend/build')))
+
+	app.get('*', (req, res) => {
+		res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
+	})
+} else {
+	app.get('/', (req, res) => {
+		res.send('Get request')
+	})
+}
+
 app.use('/api/orders', orderRoutes)
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
 

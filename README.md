@@ -69,6 +69,11 @@ Dukaan Tech Track, where you can solve ANY problem of Indian Dukaandar using you
 
 Created an online shopping portal for Indian Dukandaars using MERN stack & Redux.
  -->
+
+### Link to the deployed website
+
+https://gokartapp-by-sartaj.herokuapp.com/
+
 ### Features
 
 -   JWT user authetication
